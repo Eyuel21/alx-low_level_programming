@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * main- Entry
- *   *
- *    * Return: 0
- *     */
+ ** main- Entry
+ **
+ ** Return: 0
+ **/
 int main(void)
 {
 char word[9] = "_putchar";
