@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+#include <string.h>
 /**
  ** _strlen - returns the length of a string.
  ** @s: character value.
@@ -7,8 +8,6 @@ nclude "main.h"
  **/
 int _strlen(char *s)
 {
-int i;
-for (i = 0; s[i] != 0; i++)
-;
-return (i);
+
+return (strlen(s);
 }
