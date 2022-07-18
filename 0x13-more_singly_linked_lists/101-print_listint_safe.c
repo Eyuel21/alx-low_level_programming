@@ -54,7 +54,8 @@ size_t node, idx = 0;
 node = looped_listint_len(head);
 if (node == 0)
 {
-for (; head != NULL; node++){
+for (; head != NULL; node++)
+{
 printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
 }
