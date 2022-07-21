@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  ** binary_to_uint - converts a binary
  ** @b: pointer char
@@ -20,4 +21,3 @@ vec = vec * 2 + 0;
 }
 return (vec);
 }
-
